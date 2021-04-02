@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import HeroSection from "./components/Body/HeroSection/HeroSection";
 import WhyStartupWeekend from "./components/Body/WhyStartupWeekend/WhyStartupWeekend";
+import JoinUs from "./components/Body/JoinUs/JoinUs";
 import Footer from "./components/Footer/Footer";
 
 import "./App.css";
@@ -17,6 +18,7 @@ function App() {
             <Navbar />
             <HeroSection />
             <WhyStartupWeekend />
+            <JoinUs/>
             <Footer/>
           </div>
         </div>

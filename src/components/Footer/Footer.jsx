@@ -74,7 +74,7 @@ const Footer = () => {
           <h6>brand guidelines</h6>
         </div>
       </div>
-      <span>techstars 2021 | priavacy policy | terms of use</span>
+      <span>techstars 2021 | privacy policy | terms of use</span>
     </div>
   );
 };
