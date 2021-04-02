@@ -1,0 +1,123 @@
+.navigation-item-detail-container {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  opacity: 0.95;
+  padding: 40px 60px;
+  z-index: 2;
+  background-color: rgb(11, 11, 11);
+}
+
+.navigation-item-detail {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  color: white;
+}
+
+.navbar-subsection-container {
+  display: flex;
+}
+
+.navigation-item-detail-subsection {
+  padding-left: 32px;
+}
+
+.navigation-item-detail-subsection span {
+  padding: 0 10px 0 0;
+  font-weight: 600;
+  user-select: text;
+  text-align: left;
+  height: auto;
+}
+
+.navigation-item-detail-subsection h6 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  margin: 0;
+}
+
+.navigation-item-detail-subsection p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -1px;
+  color: #bdbdbd;
+}
+
+@media (max-width: 1170px) {
+  .navigation-item-detail-container {
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    z-index: 2;
+    position: absolute;
+    background-color: black;
+  }
+
+  .navigation-item-detail {
+    display: block;
+    justify-content: flex-start;
+    padding: 42px 24px 0 24px;
+  }
+
+  .navbar-subsection-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation-item-detail-subsection {
+    padding: 0;
+    margin-top: 36px;
+    margin-left: 50px;
+  }
+
+  .navigation-item-detail-subsection h6 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+
+  .navigation-item-detail-subsection p {
+    margin: 0;
+    color: #9e9e9e;
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 90%;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: normal;
+  }
+
+  .navigation-subsection-container {
+    display: grid;
+    grid-template-columns: auto;
+    color: black;
+    align-self: center;
+    text-align: left;
+  }
+
+  .sidebar-detail-heading {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #sidebar-chevron-left {
+    margin-right: 16px;
+    width: 32px !important;
+    height: 32px !important;
+  }
+
+  .sidebar-detail-heading p {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+}

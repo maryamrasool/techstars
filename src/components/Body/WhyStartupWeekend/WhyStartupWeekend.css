@@ -1,0 +1,61 @@
+.why-startup-weekend-container {
+  align-self: start;
+  padding-top: 96px;
+}
+
+.why-startup-weekend-container h2 {
+  margin: 0;
+  color: rgb(130, 152, 171);
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 82.8px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+
+.why-startup-weekend-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 35px;
+  grid-row-gap: 15px;
+  color: black;
+  align-self: center;
+  text-align: left;
+  margin-top: 28px;
+}
+
+.grid-item {
+}
+
+.grid-item h6 {
+  margin: 0;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.grid-item p {
+  font-size: 20px;
+  letter-spacing: -1px;
+  margin-top: 32px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "Suisse Intl", "Helvetica", "Arial", sans-serif;
+}
+
+@media (min-width: 960px) {
+  .why-startup-weekend-container {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}
+
+@media (max-width: 960px) {
+  .why-startup-weekend-container h2 {
+    padding: 0px 16px;
+  }
+  .why-startup-weekend-grid {
+    display: list-item;
+    padding: 0px 16px;
+  }
+}
